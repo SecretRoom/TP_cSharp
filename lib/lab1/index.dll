@@ -1,0 +1,130 @@
+using System;
+
+namespace lab1
+{
+    class Tasks
+    {
+        //begin task1
+        public static void Task1()
+        {
+            int i = 10;
+            Console.WriteLine(i);
+            i = 100;
+            Console.WriteLine(i);
+        }
+        //begin task1
+
+        //begin task2
+        public static void Task2()
+        {
+            Console.WriteLine( "минимальная температура = " +(int)gradus.min);
+            Console.WriteLine(" критическая температура = " +(int)gradus.krit);
+            Console.WriteLine(" максимальная температура = " +(int)gradus.max);
+        }
+        enum gradus : int
+        {
+            min = 0,
+            krit = 72,
+            max = 100,
+        }
+        //end task2
+
+        //begin task3
+        public static void Task3()
+        {
+            void ex1()
+            {
+
+                int x,y;
+                Console.WriteLine("Enter value ex1");
+                Console.WriteLine(
+                    "{0} + {1} = {2}", 
+                    x = int.Parse(Console.ReadLine()), 
+                    y = int.Parse(Console.ReadLine()), x + y
+                    );
+            }
+
+            void ex2()
+            {
+                int x, y, z;
+                Console.WriteLine("Enter value ex2");
+                Console.WriteLine(
+                    "{0} + {1} + {2} = {3} = {2} + {1} + {0}",
+                    x = int.Parse(Console.ReadLine()),
+                    y = int.Parse(Console.ReadLine()),
+                    z = int.Parse(Console.ReadLine()), x + y + z
+                );
+            }
+
+            void ex3()
+            {
+                int x, y, z;
+                Console.WriteLine("Enter value ex3");
+                Console.WriteLine(
+                    "{0} + {1} + {2} = {3}",
+                    x = int.Parse(Console.ReadLine()),
+                    y = int.Parse(Console.ReadLine()), 
+                    z = int.Parse(Console.ReadLine()), x + y + z
+                );
+            }
+
+            void ex4()
+            {
+                double x, y;
+                Console.WriteLine("Enter value ex4");
+                Console.WriteLine(
+                    "{0:##.#} * {1:##.#} = {2:##.#}",
+                    x = double.Parse(Console.ReadLine()), 
+                    y = double.Parse(Console.ReadLine()), x * y
+                );
+            }
+
+            void ex5()
+            {
+                double x, y;
+                Console.WriteLine("Enter value ex5");
+                Console.WriteLine(
+                    "{0:##.###} / {1:##.###} = {2:##.###}", 
+                    x = double.Parse(Console.ReadLine()), 
+                    y = double.Parse(Console.ReadLine()), x/y
+                );
+            }
+
+            void ex6()
+            {
+                double x, y, z;
+                Console.WriteLine("Enter value ex6");
+                Console.WriteLine(
+                    "({0:##.###} + {1:##.###}) + {2:##.###} = {3:##.###} = {0:##.###} + ({1:##.###} + {2:##.###})", 
+                    x = double.Parse(Console.ReadLine()), 
+                    y = double.Parse(Console.ReadLine()),
+                    z = double.Parse(Console.ReadLine()), x + y + z
+                );
+            }
+
+            ex1();
+            ex2();
+            ex3();
+            ex4();
+            ex5();
+            ex6();
+        }
+        //end task3
+    }
+
+    class Lab1
+    {
+
+        public static void main()
+        {
+            Console.WriteLine("Task 1");
+            Tasks.Task1();
+            Console.WriteLine();
+            Console.WriteLine("Task 2");
+            Tasks.Task2();
+            Console.WriteLine();
+            Console.WriteLine("Task 3");
+            Tasks.Task3();
+        }
+    }
+}
