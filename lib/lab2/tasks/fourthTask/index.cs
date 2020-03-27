@@ -36,7 +36,7 @@ namespace fourthTask
       }
       foreach (var item in armList)
       {
-        Console.WriteLine(item);
+        Console.WriteLine("item {0}",item);
       }
     }
 
