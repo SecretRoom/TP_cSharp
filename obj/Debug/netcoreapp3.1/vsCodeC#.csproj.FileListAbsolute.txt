@@ -9,3 +9,14 @@ C:\Users\koly_\Google Диск\Универ\3 курс\C#\vsCodeC#\obj\Debug\net
 C:\Users\koly_\Google Диск\Универ\3 курс\C#\vsCodeC#\obj\Debug\netcoreapp3.1\vsCodeC#.AssemblyInfo.cs
 C:\Users\koly_\Google Диск\Универ\3 курс\C#\vsCodeC#\obj\Debug\netcoreapp3.1\vsCodeC#.dll
 C:\Users\koly_\Google Диск\Универ\3 курс\C#\vsCodeC#\obj\Debug\netcoreapp3.1\vsCodeC#.pdb
+D:\TP_cSharp\bin\Debug\netcoreapp3.1\vsCodeC#.exe
+D:\TP_cSharp\bin\Debug\netcoreapp3.1\vsCodeC#.deps.json
+D:\TP_cSharp\bin\Debug\netcoreapp3.1\vsCodeC#.runtimeconfig.json
+D:\TP_cSharp\bin\Debug\netcoreapp3.1\vsCodeC#.runtimeconfig.dev.json
+D:\TP_cSharp\bin\Debug\netcoreapp3.1\vsCodeC#.dll
+D:\TP_cSharp\bin\Debug\netcoreapp3.1\vsCodeC#.pdb
+D:\TP_cSharp\obj\Debug\netcoreapp3.1\vsCodeC#.csprojAssemblyReference.cache
+D:\TP_cSharp\obj\Debug\netcoreapp3.1\vsCodeC#.AssemblyInfoInputs.cache
+D:\TP_cSharp\obj\Debug\netcoreapp3.1\vsCodeC#.AssemblyInfo.cs
+D:\TP_cSharp\obj\Debug\netcoreapp3.1\vsCodeC#.dll
+D:\TP_cSharp\obj\Debug\netcoreapp3.1\vsCodeC#.pdb
