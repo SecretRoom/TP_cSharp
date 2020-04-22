@@ -1,8 +1,8 @@
-using System;
+// using System;
 
-// namespace task3Lab3
+// namespace task3Lab4
 // {
-//   class Task3Lab3
+//   class Task3Lab4
 //   {
 //     static Random rnd = new Random();
 

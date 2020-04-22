@@ -1,77 +1,33 @@
-// using System;
+using System;
 
-// namespace task2Lab3
-// {
-//   class Task2Lab3
-//   {
-//     static Random rnd = new Random();
+namespace task2Lab4
+{
+  class Task2Lab4
+  {
+    public static void _printAnyArr(Array arr)
+    {
+      // int count = arr.GetLength();
+      foreach (var item in arr)
+      {
+        Console.Write(item.ToString().PadLeft(4));
+      }
+      Console.WriteLine("\n");
+    }
 
-//     public static void createRandom(int[,] matrix)
-//     {
-//       for (int i = 0; i < matrix.GetUpperBound(0) + 1; i++)
-//       {
-//         for (int j = 0; j < matrix.GetUpperBound(1) + 1; j++)
-//         {
-//           matrix[i, j] = rnd.Next(1, 20);
-//         }
-//       }
-//     }
-
-//     public static void printMatrix(int[,] matrix)
-//     {
-//       for (int i = 0; i < matrix.GetUpperBound(0) + 1; i++)
-//       {
-//         for (int j = 0; j < matrix.GetUpperBound(1) + 1; j++)
-//         {
-//           Console.Write(matrix[i, j].ToString().PadLeft(4));
-//         }
-//         Console.WriteLine("");
-//       }
-//       Console.WriteLine("\n");
-//     }
-
-//     public static int RowsCount(int[,] matrix)
-//     {
-//       return matrix.GetUpperBound(0) + 1;
-//     }
-
-//     public static int ColumnsCount(int[,] matrix)
-//     {
-//       return matrix.GetUpperBound(1) + 1;
-//     }
-
-
-//     public static int[,] MultyMatrix(int[,] matrixA, int[,] matrixB)
-//     {
-//       if (ColumnsCount(matrixA) != RowsCount(matrixB))
-//       {
-//         throw new Exception("Умножение не возможно! Количество столбцов первой матрицы не равно количеству строк второй матрицы.");
-//       }
-
-//       var matrixC = new int[RowsCount(matrixB), ColumnsCount(matrixA)];
-
-//       for (var i = 0; i < RowsCount(matrixB); i++)
-//       {
-//         for (var j = 0; j < ColumnsCount(matrixA); j++)
-//         {
-//           matrixC[i, j] = 0;
-//           for (var k = 0; k < ColumnsCount(matrixA); k++)
-//           {
-//             matrixC[i, j] += matrixA[i, k] * matrixB[k, j];
-//           }
-//         }
-//       }
-//       return matrixC;
-//     }
-
-//     public static void main()
-//     {
-//       int[,] matrix1 = new int[3, 3], matrix2 = new int[3, 3];
-//       createRandom(matrix1);
-//       createRandom(matrix2);
-//       printMatrix(matrix1);
-//       printMatrix(matrix2);
-//       printMatrix(MultyMatrix(matrix1, matrix2));
-//     }
-//   }
-// }
+    public static void main()
+    {
+      int[] ar1 = new int[] { 1, 5, 2, 9, 7, 3, 1, 8 };
+      int[] ar2 = new int[4];
+      Array.Copy(ar1, ar2, 4);
+      _printAnyArr(ar1);
+      _printAnyArr(ar2);
+      Console.WriteLine("first: {0}, last: {1}\n", Array.IndexOf(ar1, 1), Array.LastIndexOf(ar1, 1));
+      Array.Reverse(ar1);
+      _printAnyArr(ar1);
+      Array.Sort(ar1);
+      _printAnyArr(ar1);
+      ar1 = new int[] { 1, 5, 2, 9, 7, 3, 1, 8 };
+      Console.WriteLine("{0}\n", Array.BinarySearch(ar1, 2));
+    }
+  }
+}

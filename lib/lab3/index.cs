@@ -1,5 +1,5 @@
 using System;
-using tasks;
+using tasksLab3;
 
 namespace lab3
 {

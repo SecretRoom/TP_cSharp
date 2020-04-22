@@ -3,7 +3,7 @@ using task1Lab3;
 using task2Lab3;
 using task3Lab3;
 
-namespace tasks
+namespace tasksLab3
 {
   public class TasksLab3
   {
@@ -11,7 +11,7 @@ namespace tasks
     {
       // Task1Lab3.main();
       // Task2Lab3.main();
-      Task3Lab3.main();
+      // Task3Lab3.main();
     }
   }
 }

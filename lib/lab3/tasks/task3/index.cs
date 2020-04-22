@@ -4,35 +4,35 @@ namespace task3Lab3
 {
   class Task3Lab3
   {
-    static Random rnd = new Random();
+    static Random _rnd = new Random();
 
-    public static void createItem(int[] item)
+    public static void _createItem(int[] item)
     {
       for (int i = 0; i < item.Length; i++)
       {
-        item[i] = rnd.Next(1, 20);
+        item[i] = _rnd.Next(1, 20);
       }
     }
 
-    public static void list(int[][] arrList, string type)
+    public static void _list(int[][] arrList, string type)
     {
       if (type == "print")
       {
         foreach (var item in arrList)
         {
-          printList(item);
+          _printList(item);
         }
       }
       else
       {
         foreach (var item in arrList)
         {
-          createItem(item);
+          _createItem(item);
         }
       }
     }
 
-    public static void printList(int[] item)
+    public static void _printList(int[] item)
     {
       foreach (var elem in item)
       {
@@ -57,8 +57,8 @@ namespace task3Lab3
         new int[length++],
         new int[length++],
       };
-      list(arrList, "service");
-      list(arrList, "print");
+      _list(arrList, "service");
+      _list(arrList, "print");
     }
   }
 }
