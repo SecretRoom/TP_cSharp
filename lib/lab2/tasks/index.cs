@@ -5,7 +5,7 @@ using fourthTask;
 
 namespace tasks
 {
-  public class Tasks
+  public class TasksLab2
   {
     public static void main()
     {

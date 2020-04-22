@@ -1,13 +1,13 @@
 using System;
 using tasks;
 
-namespace lab2
+namespace lab3
 {
-  public class Lab2
+  public class Lab3
   {
     public static void main()
     {
-      TasksLab2.main();
+      TasksLab3.main();
     }
 
   }
