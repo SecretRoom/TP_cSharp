@@ -9,3 +9,14 @@ C:\Users\koly_\Google Диск\Универ\3 курс\C#\vsCodeC#\obj\Debug\net
 C:\Users\koly_\Google Диск\Универ\3 курс\C#\vsCodeC#\obj\Debug\netcoreapp3.1\vsCodeC#.AssemblyInfo.cs
 C:\Users\koly_\Google Диск\Универ\3 курс\C#\vsCodeC#\obj\Debug\netcoreapp3.1\vsCodeC#.dll
 C:\Users\koly_\Google Диск\Универ\3 курс\C#\vsCodeC#\obj\Debug\netcoreapp3.1\vsCodeC#.pdb
+C:\Users\koly_\Google Диск\Универ\3 курс\C#\TP_CSharp\bin\Debug\netcoreapp3.1\vsCodeC#.exe
+C:\Users\koly_\Google Диск\Универ\3 курс\C#\TP_CSharp\bin\Debug\netcoreapp3.1\vsCodeC#.deps.json
+C:\Users\koly_\Google Диск\Универ\3 курс\C#\TP_CSharp\bin\Debug\netcoreapp3.1\vsCodeC#.runtimeconfig.json
+C:\Users\koly_\Google Диск\Универ\3 курс\C#\TP_CSharp\bin\Debug\netcoreapp3.1\vsCodeC#.runtimeconfig.dev.json
+C:\Users\koly_\Google Диск\Универ\3 курс\C#\TP_CSharp\bin\Debug\netcoreapp3.1\vsCodeC#.dll
+C:\Users\koly_\Google Диск\Универ\3 курс\C#\TP_CSharp\bin\Debug\netcoreapp3.1\vsCodeC#.pdb
+C:\Users\koly_\Google Диск\Универ\3 курс\C#\TP_CSharp\obj\Debug\netcoreapp3.1\vsCodeC#.csprojAssemblyReference.cache
+C:\Users\koly_\Google Диск\Универ\3 курс\C#\TP_CSharp\obj\Debug\netcoreapp3.1\vsCodeC#.AssemblyInfoInputs.cache
+C:\Users\koly_\Google Диск\Универ\3 курс\C#\TP_CSharp\obj\Debug\netcoreapp3.1\vsCodeC#.AssemblyInfo.cs
+C:\Users\koly_\Google Диск\Универ\3 курс\C#\TP_CSharp\obj\Debug\netcoreapp3.1\vsCodeC#.dll
+C:\Users\koly_\Google Диск\Универ\3 курс\C#\TP_CSharp\obj\Debug\netcoreapp3.1\vsCodeC#.pdb

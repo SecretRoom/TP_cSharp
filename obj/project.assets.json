@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\koly_\\Google Диск\\Универ\\3 курс\\C#\\vsCodeC#\\vsCodeC#.csproj",
+      "projectUniqueName": "C:\\Users\\koly_\\Google Диск\\Универ\\3 курс\\C#\\TP_CSharp\\vsCodeC#.csproj",
       "projectName": "vsCodeC#",
-      "projectPath": "C:\\Users\\koly_\\Google Диск\\Универ\\3 курс\\C#\\vsCodeC#\\vsCodeC#.csproj",
+      "projectPath": "C:\\Users\\koly_\\Google Диск\\Универ\\3 курс\\C#\\TP_CSharp\\vsCodeC#.csproj",
       "packagesPath": "C:\\Users\\koly_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\koly_\\Google Диск\\Универ\\3 курс\\C#\\vsCodeC#\\obj\\",
+      "outputPath": "C:\\Users\\koly_\\Google Диск\\Универ\\3 курс\\C#\\TP_CSharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\koly_\\AppData\\Roaming\\NuGet\\NuGet.Config",
