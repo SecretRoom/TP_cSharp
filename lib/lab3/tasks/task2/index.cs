@@ -4,20 +4,20 @@ namespace task2Lab3
 {
   class Task2Lab3
   {
-    static Random rnd = new Random();
+    static Random _rnd = new Random();
 
-    public static void createRandom(int[,] matrix)
+    public static void _createRandom(int[,] matrix)
     {
       for (int i = 0; i < matrix.GetUpperBound(0) + 1; i++)
       {
         for (int j = 0; j < matrix.GetUpperBound(1) + 1; j++)
         {
-          matrix[i, j] = rnd.Next(1, 20);
+          matrix[i, j] = _rnd.Next(1, 20);
         }
       }
     }
 
-    public static void printMatrix(int[,] matrix)
+    public static void _printMatrix(int[,] matrix)
     {
       for (int i = 0; i < matrix.GetUpperBound(0) + 1; i++)
       {
@@ -30,32 +30,32 @@ namespace task2Lab3
       Console.WriteLine("\n");
     }
 
-    public static int RowsCount(int[,] matrix)
+    public static int _RowsCount(int[,] matrix)
     {
       return matrix.GetUpperBound(0) + 1;
     }
 
-    public static int ColumnsCount(int[,] matrix)
+    public static int _ColumnsCount(int[,] matrix)
     {
       return matrix.GetUpperBound(1) + 1;
     }
 
 
-    public static int[,] MultyMatrix(int[,] matrixA, int[,] matrixB)
+    public static int[,] _MultyMatrix(int[,] matrixA, int[,] matrixB)
     {
-      if (ColumnsCount(matrixA) != RowsCount(matrixB))
+      if (_ColumnsCount(matrixA) != _RowsCount(matrixB))
       {
         throw new Exception("Умножение не возможно! Количество столбцов первой матрицы не равно количеству строк второй матрицы.");
       }
 
-      var matrixC = new int[RowsCount(matrixB), ColumnsCount(matrixA)];
+      var matrixC = new int[_RowsCount(matrixB), _ColumnsCount(matrixA)];
 
-      for (var i = 0; i < RowsCount(matrixB); i++)
+      for (var i = 0; i < _RowsCount(matrixB); i++)
       {
-        for (var j = 0; j < ColumnsCount(matrixA); j++)
+        for (var j = 0; j < _ColumnsCount(matrixA); j++)
         {
           matrixC[i, j] = 0;
-          for (var k = 0; k < ColumnsCount(matrixA); k++)
+          for (var k = 0; k < _ColumnsCount(matrixA); k++)
           {
             matrixC[i, j] += matrixA[i, k] * matrixB[k, j];
           }
@@ -67,11 +67,11 @@ namespace task2Lab3
     public static void main()
     {
       int[,] matrix1 = new int[3, 3], matrix2 = new int[3, 3];
-      createRandom(matrix1);
-      createRandom(matrix2);
-      printMatrix(matrix1);
-      printMatrix(matrix2);
-      printMatrix(MultyMatrix(matrix1, matrix2));
+      _createRandom(matrix1);
+      _createRandom(matrix2);
+      _printMatrix(matrix1);
+      _printMatrix(matrix2);
+      _printMatrix(_MultyMatrix(matrix1, matrix2));
     }
   }
 }

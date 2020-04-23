@@ -1,21 +1,20 @@
 using System;
-using System.Collections.Generic;
 
 namespace task1Lab3
 {
   class Task1Lab3
   {
-    static Random rnd = new Random();
+    static Random _rnd = new Random();
 
-    public static void createRandom(int[] arr)
+    public static void _createRandom(int[] arr)
     {
       for (int i = 0; i < arr.Length; i++)
       {
-        arr[i] = rnd.Next();
+        arr[i] = _rnd.Next();
       }
     }
 
-    public static void printArray(int[] arr)
+    public static void _printArray(int[] arr)
     {
       foreach (var item in arr)
       {
@@ -35,20 +34,20 @@ namespace task1Lab3
       V = U;
       V[0] = 9;
 
-      createRandom(A);
-      createRandom(B);
-      createRandom(D);
+      _createRandom(A);
+      _createRandom(B);
+      _createRandom(D);
       for (int i = 0; i < C.Length; i++)
       {
         C[i] = A[i] + B[i];
       }
-      printArray(A);
-      printArray(B);
-      printArray(C);
-      printArray(X);
-      printArray(U);
-      printArray(V);
-      printArray(D);
+      _printArray(A);
+      _printArray(B);
+      _printArray(C);
+      _printArray(X);
+      _printArray(U);
+      _printArray(V);
+      _printArray(D);
     }
   }
 

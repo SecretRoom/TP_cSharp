@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TP_cSharp\\vsCodeC#.csproj": {}
+    "C:\\Users\\koly_\\Google Диск\\Универ\\3 курс\\C#\\TP_CSharp\\vsCodeC#.csproj": {}
   },
   "projects": {
-    "D:\\TP_cSharp\\vsCodeC#.csproj": {
+    "C:\\Users\\koly_\\Google Диск\\Универ\\3 курс\\C#\\TP_CSharp\\vsCodeC#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TP_cSharp\\vsCodeC#.csproj",
+        "projectUniqueName": "C:\\Users\\koly_\\Google Диск\\Универ\\3 курс\\C#\\TP_CSharp\\vsCodeC#.csproj",
         "projectName": "vsCodeC#",
-        "projectPath": "D:\\TP_cSharp\\vsCodeC#.csproj",
+        "projectPath": "C:\\Users\\koly_\\Google Диск\\Универ\\3 курс\\C#\\TP_CSharp\\vsCodeC#.csproj",
         "packagesPath": "C:\\Users\\koly_\\.nuget\\packages\\",
-        "outputPath": "D:\\TP_cSharp\\obj\\",
+        "outputPath": "C:\\Users\\koly_\\Google Диск\\Универ\\3 курс\\C#\\TP_CSharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\koly_\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\koly_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
