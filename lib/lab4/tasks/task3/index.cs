@@ -1,64 +1,33 @@
-// using System;
+using System;
 
-// namespace task3Lab4
-// {
-//   class Task3Lab4
-//   {
-//     static Random rnd = new Random();
+namespace task3Lab4
+{
+  class Task3Lab4
+  {
 
-//     public static void createItem(int[] item)
-//     {
-//       for (int i = 0; i < item.Length; i++)
-//       {
-//         item[i] = rnd.Next(1, 20);
-//       }
-//     }
+    public static void _printAnyArr(Object A, params int[] coef)
+    {
+      // for (Object item of A)
+      // {
 
-//     public static void list(int[][] arrList, string type)
-//     {
-//       if (type == "print")
-//       {
-//         foreach (var item in arrList)
-//         {
-//           printList(item);
-//         }
-//       }
-//       else
-//       {
-//         foreach (var item in arrList)
-//         {
-//           createItem(item);
-//         }
-//       }
-//     }
+      //   Console.WriteLine(item);
+      // }
 
-//     public static void printList(int[] item)
-//     {
-//       foreach (var elem in item)
-//       {
-//         Console.Write(elem.ToString().PadLeft(4));
-//       }
-//       Console.WriteLine("\n");
-//     }
+      Array arr = A as Array;
+      if (arr == null)
+      {
+        Console.Write(A + " ");
+        // return;
+      }
+      Console.WriteLine(arr);
+    }
 
-
-//     public static void main()
-//     {
-//       int length = 1;
-//       int[][] arrList = new int[10][] {
-//         new int[length++],
-//         new int[length++],
-//         new int[length++],
-//         new int[length++],
-//         new int[length++],
-//         new int[length++],
-//         new int[length++],
-//         new int[length++],
-//         new int[length++],
-//         new int[length++],
-//       };
-//       list(arrList, "service");
-//       list(arrList, "print");
-//     }
-//   }
-// }
+    public static void main()
+    {
+      int[] ar1 = new int[] { 1, 5, 2, 9, 7, 3, 1, 8 };
+      int[] ar2 = new int[4];
+      int[] ar3 = { 1, 2, 3, 4, 5 };
+      _printAnyArr(ar1);
+    }
+  }
+}
